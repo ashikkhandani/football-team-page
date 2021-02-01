@@ -1,0 +1,193 @@
+/* Style Start here */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("./images/b4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  /* font-family: "Russo One", sans-serif; */
+}
+.carousel {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: rgb(8, 8, 8);
+  opacity: 0.9;
+}
+.img {
+  height: 60vh;
+  opacity: 0.7;
+}
+.title {
+  width: 100vw;
+  height: 90px;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fa8212;
+  background-image: url("./images/c9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  font-family: "Russo One", sans-serif;
+}
+
+.main {
+  width: 100vw;
+  height: 100%;
+  background-image: url("./images/p3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  font-family: "Russo One", sans-serif;
+}
+.teamContainer,
+.playerContainer {
+  height: 100%;
+  margin-top: 10px;
+  opacity: 0.8;
+  /* cursor: pointer; */
+}
+
+.headerTeam {
+  width: 65%;
+  height: 60px;
+  font-size: 2.2rem;
+  color: rgb(185, 245, 21);
+  text-align: center;
+  background-image: url("./images2/c5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 3px solid rgb(185, 245, 21);
+}
+.headerPlayers {
+  width: 65%;
+  height: 60px;
+  font-size: 2.2rem;
+  color: rgb(245, 92, 21);
+  text-align: center;
+  background-image: url("./images2/c5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 3px solid rgb(245, 92, 21);
+  -webkit-animation: choose 1s linear 2;
+  -moz-animation: choose 1s linear 2;
+  animation: choose 1s linear 2;
+}
+.formC {
+  height: 50px !important;
+  border: none !important;
+  border-radius: 25px !important;
+}
+.btn {
+  border: none !important;
+  border-radius: 20px !important;
+  background-color: rgb(245, 92, 21) !important;
+}
+
+.btn:focus {
+  visibility: hidden !important;
+}
+.myPlayers {
+  height: 80px;
+  font-size: 1.1rem;
+  color: rgb(185, 245, 21);
+  margin: 7px;
+  background-color: rgb(29, 41, 47);
+  border: 2px solid rgb(185, 245, 21);
+  border-radius: 30px;
+  opacity: 0.9;
+  cursor: pointer;
+  -webkit-animation: player 1.5s linear 1;
+  -moz-animation: player 1.5s linear 1;
+  animation: player 1.5s linear 1;
+}
+
+.playersMarket {
+  height: 80px;
+  font-size: 1.1rem;
+  color: rgb(245, 92, 21);
+  margin: 7px;
+  background-color: rgb(26, 42, 78);
+  border: 2px solid rgb(245, 92, 21);
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.iconTeam,
+.iconPlayers {
+  width: 40px;
+  height: 40px;
+  margin: 7px;
+  font-weight: bold !important;
+  border: none !important;
+  border-radius: 50px !important;
+}
+ul {
+  cursor: pointer;
+}
+
+.iconPlayers {
+  background-image: url("./images/football-157930_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  -webkit-animation: spin 3s linear infinite;
+  -moz-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes choose {
+  100% {
+    -moz-transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes choose {
+  100% {
+    -webkit-transform: rotateX(360deg);
+  }
+}
+@keyframes choose {
+  100% {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+}
+@-moz-keyframes player {
+  100% {
+    -moz-transform: rotateY(360deg);
+  }
+}
+@-webkit-keyframes player {
+  100% {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+@keyframes player {
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
