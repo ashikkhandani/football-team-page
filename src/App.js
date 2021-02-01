@@ -13,27 +13,27 @@ export default class App extends Component {
       playerList: [
         {
           id: 1,
-          name: "Ashik Ahammed (C)",
+          name: "A. Ahammed (C)",
           choose: false,
         },
         {
           id: 2,
-          name: "Lionel Messi ",
+          name: "L. Messi ",
           choose: false,
         },
         {
           id: 3,
-          name: "Cristiano Ronaldo ",
+          name: "C. Ronaldo ",
           choose: false,
         },
         {
           id: 4,
-          name: "Mohammed Salah ",
+          name: "Md. Salah ",
           choose: false,
         },
         {
           id: 5,
-          name: "Zlatan Ibrahimović ",
+          name: "Z. Ibrahimović ",
           choose: false,
         },
         {
@@ -43,42 +43,42 @@ export default class App extends Component {
         },
         {
           id: 7,
-          name: "Manuel Neuer (GK)",
+          name: "M. Neuer (GK)",
           choose: false,
         },
         {
           id: 8,
-          name: "Andrés Iniesta ",
+          name: "A. Iniesta ",
           choose: false,
         },
         {
           id: 9,
-          name: " Carlos Tevez ",
+          name: " C. Tevez ",
           choose: false,
         },
         {
           id: 10,
-          name: " Sergio Agüero  ",
+          name: " S. Agüero  ",
           choose: false,
         },
         {
           id: 11,
-          name: " Marc-André ter (GK)",
+          name: " M.-André ter (GK)",
           choose: false,
         },
         {
           id: 12,
-          name: "Antoine Griezmann",
+          name: "A. Griezmann",
           choose: false,
         },
         {
           id: 13,
-          name: "Marcelo Vieira ",
+          name: "Marcelo V. ",
           choose: false,
         },
         {
           id: 14,
-          name: " Karim Benzema",
+          name: " K. Benzema",
           choose: false,
         },
         {
@@ -88,17 +88,17 @@ export default class App extends Component {
         },
         {
           id: 16,
-          name: " Gareth Bale",
+          name: " G. Bale",
           choose: false,
         },
         {
           id: 17,
-          name: "Kylian Mbappé ",
+          name: "K. Mbappé ",
           choose: false,
         },
         {
           id: 18,
-          name: "Gerard Piqué ",
+          name: "G. Piqué ",
           choose: false,
         },
         {
